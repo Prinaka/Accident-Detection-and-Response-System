@@ -1,4 +1,4 @@
-# Accident-Detection-and-Response-System
+# Accident Detection and Response System
 Live Demo : https://accident-detection-and-response-system.streamlit.app/
 
 This project provides an automated solution for detecting potential vehicle collisions in video feeds. It uses object detection and tracking to identify vehicles and monitor their movements. When a collision is detected, the system logs the event, saves a snapshot of the moment, and alerts the user.
