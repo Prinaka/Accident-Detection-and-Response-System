@@ -54,10 +54,11 @@ streamlit run app.py
 
 **Customization & Extending:**
 
-* Platform Dependency: The winsound library is specific to Windows. If you are running this code on macOS or Linux, you will need to replace the winsound.Beep() function with an alternative for sound alerts.
-* Model Performance: The performance of the system is highly dependent on the quality and resolution of the input video and the complexity of the scene.
-* IoU Threshold: The iou_threshold in the check_collision function can be adjusted to fine-tune the sensitivity of the collision detection. A lower value will detect near-misses, while a higher value will require a more significant overlap.
-* Cooldown Period: The cooldown_time variable prevents repeated notifications for the same ongoing collision. You can modify this value (in seconds) to suit your needs.
+* The winsound library is specific to Windows. If you are running this code on macOS or Linux, you will need to replace the winsound.Beep() function with an alternative for sound alerts.
+* This system can be easily adapted for real-time monitoring. Instead of reading from a video file, you can modify the video_path variable in main.py to point to a live surveillance camera stream.
+* The performance of the system is highly dependent on the quality and resolution of the input video and the complexity of the scene.
+* The iou_threshold can be adjusted to fine-tune the sensitivity of the collision detection. A lower value will detect near-misses, while a higher value will require a more significant overlap.
+* The cooldown_time variable prevents repeated notifications for the same ongoing collision. You can modify this value (in seconds) to suit your needs.
   
 **License:**
 
